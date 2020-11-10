@@ -3,7 +3,6 @@ language: php
 php:
   - 7.4
   - 7.3
-  - 7.2
 
 cache:
   directories:
@@ -15,10 +14,3 @@ before_script:
 
 script:
   - vendor/bin/phpunit
-  - sonar-scanner -Dsonar.projectKey=rogervila_composer-package-template -Dsonar.sources=. -Dsonar.exclusions='vendor/**, tests/**' -Dsonar.php.tests.reportPath=junit-logfile.xml -Dsonar.php.coverage.reportPaths=clover.xml
-
-addons:
-  sonarcloud:
-    organization: "rogervila-github"
-    token:
-      secure: "6EtODh4KA7RkejGI9Lq7C57BdzB/tfdqKujQU2I7YIDLSfwYkIRVFVGfo1ah9pfYI0RGRuPz5PWEZqnApbMMCnBPT6PutHf19DEbK1TFqcQR1JHp2AAuXB71wLiYyi0hdBBf+65k2UeiOnS0JSPyxAZuN/nVTMwxGVdVFDzp0q7XHeA7zL+jz5K3vkepbND+AWeHYklAelYEagIuO5eWEyZhZKR8nNh1M2JQnddqZBPMNJKZNK/YH9DJPYzaQIFPXaAXsQaBOLhSdHWEQNPcwswK0lL7fTskX2xQZ0cFTR/rZP7ZYXq2lVSNPJA659sjzfrrAlxKp7eER1Y+QuyNPW1bFJx8W73OkSRwB9QIB1zVdjR8H6TIRzk7j8TGsol6ISrxH76UNOdJh/UDQWcbAAL2x7OQm+l122DZzoGgrUsD7F9btc4riKNoIEIKPSmFTRXWzUIETa3uI0jCZKg+Z2+RQQTMn+pmm/i5javClphHd82LgwjvFfnRiND5fxzb0+0sZ72tltqUzOuWTTvhslUoTRF0ff5tX83VI5g/Jokrp+sNXZEcvXby7nnpvhwep8XzWrfQ+DjdAXvYUGtWVVeUGcyOnDEe/8Y0w5NDDBGn5UwxxmUeX78IDbbcli1W70+Bq5qN4/ocjvWdw/TaHykbKAXLGarnLVQAj/Q68Wg="
