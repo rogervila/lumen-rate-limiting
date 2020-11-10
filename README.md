@@ -1,4 +1,4 @@
-# Lumen Rate limiting
+<center><img alt="Lumen Rate limiting" src="https://banners.beyondco.de/Lumen%20Rate%20limiting.png?theme=light&packageName=rogervila%2Flumen-rate-limiting&pattern=architect&style=style_1&description=Lumen+port+of+Laravel+ThrottleRequests+middleware&md=1&showWatermark=1&fontSize=100px&images=shield-check"></center>
 
 <a href="https://packagist.org/packages/rogervila/lumen-rate-limiting"><img src="https://img.shields.io/packagist/dt/rogervila/lumen-rate-limiting" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/rogervila/lumen-rate-limiting"><img src="https://img.shields.io/packagist/v/rogervila/lumen-rate-limiting" alt="Latest Stable Version"></a>
