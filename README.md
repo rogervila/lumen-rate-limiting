@@ -6,7 +6,16 @@
 
 ## About
 
-This package contains Lumen port of Laravel's [ThrottleRequests middleware](https://github.com/laravel/framework/blob/master/src/Illuminate/Routing/Middleware/ThrottleRequests.php)
+This package contains a Lumen port of Laravel's [ThrottleRequests middleware](https://github.com/laravel/framework/blob/master/src/Illuminate/Routing/Middleware/ThrottleRequests.php). 
+
+Check the package version compatibility based on your Lumen's project version:
+
+| Lumen | lumen-rate-limiting |
+| ------ | ------ |
+| 11.x | 2.x |
+| 10.x | 1.x |
+| 9.x | 1.x |
+| 8.x | 1.x |
 
 ## Install
 
