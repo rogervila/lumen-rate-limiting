@@ -5,8 +5,8 @@ clone_folder: C:\projects\app
 
 environment:
     matrix:
-        - php_ver: 7.4
-        - php_ver: 7.3
+        - php_ver: 8.2
+        - php_ver: 8.2
 
 cache:
     - '%APPDATA%\Composer'
